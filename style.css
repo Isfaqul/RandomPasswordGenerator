@@ -188,4 +188,7 @@ form {
   #length:focus {
     outline: none;
   }
+  .password-output:hover {
+    background-color: #1f2937;
+  }
 }
