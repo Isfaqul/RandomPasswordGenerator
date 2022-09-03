@@ -178,6 +178,10 @@ function displayPassword(e) {
 // Copy functions
 function copy(event) {
   let copiedText = event.target.innerText;
-  navigator.clipboard.writeText(copiedText);
-  alert("Password copied");
+  if (copiedText === "-") {
+    return;
+  } else {
+    navigator.clipboard.writeText(copiedText);
+    alert("Password copied!");
+  }
 }

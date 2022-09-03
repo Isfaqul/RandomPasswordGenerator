@@ -150,9 +150,8 @@ form {
   h1 {
     font-size: 3rem;
   }
-
   #tagline {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
   .config-title {
     display: block;
@@ -168,5 +167,16 @@ form {
   }
   .password-output {
     margin: 1.5rem 0;
+  }
+  .checkbox {
+    width: 20px;
+    height: 20px;
+  }
+  #length {
+    padding: 1.5rem 2rem;
+    font-size: 1.8rem;
+  }
+  #length:focus {
+    border: none;
   }
 }
