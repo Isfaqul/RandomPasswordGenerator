@@ -1,0 +1,143 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Inter, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: rgb(183, 190, 197);
+}
+
+#main-container {
+  min-width: 28.65vw;
+  padding: 4.5rem;
+  background-color: #111827;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+  line-height: 95%;
+  font-weight: 800;
+}
+
+h1 span {
+  display: block;
+  color: #0ea5e9;
+}
+
+#tagline {
+  font-size: 2rem;
+  color: #d5d4d8;
+  margin: 1rem 0;
+}
+
+hr {
+  margin: 2.8rem 0;
+  background-color: #2f3e53;
+  border: none;
+  height: 2px;
+}
+
+form {
+  font-size: 1.8rem;
+}
+
+.config-title,
+.config-item {
+  margin-bottom: 1.5rem;
+}
+
+.config-title {
+  font-weight: 500;
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.config-item {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.config-item input {
+  margin-right: 0.5rem;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 2rem;
+  color: #0ea5e9;
+}
+
+#length {
+  width: 80px;
+  font-family: inherit;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.1s ease;
+  background-color: #bae6fd;
+}
+
+#length:focus {
+  outline: 3px solid #0ea5e9;
+}
+
+#password-btn {
+  margin-top: 5.7rem;
+  font-family: inherit;
+  font-size: 1.6rem;
+  padding: 1.5rem 3rem;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #0284c7;
+  color: white;
+  font-weight: 600;
+  transition: 0.1s;
+  border: none;
+}
+
+#password-btn:hover {
+  background-color: rgb(2, 113, 168);
+}
+
+#password-btn:active {
+  background-color: #0284c7;
+}
+
+.output {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.password-output {
+  background-color: #1f2937;
+  font-size: 1.6rem;
+  padding: 1.2rem;
+  border-radius: 6px;
+  color: #7dd3fc;
+  cursor: pointer;
+  text-align: center;
+  flex: 1;
+}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
+}

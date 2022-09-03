@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+    <title>Random Password Generator 2.0</title>
+  </head>
+  <body>
+    <main id="main-container">
+      <div class="sections header">
+        <h1>Generate a <span id="h1-span">random password</span></h1>
+        <p id="tagline">Never use an insecure password again.</p>
+        <hr />
+      </div>
+      <div class="sections config">
+        <form action="#">
+          <p class="config-title">Include:</p>
+          <div class="config-item">
+            <input
+              type="checkbox"
+              class="checkbox"
+              id="symbol"
+              value="Symbol"
+              name="include"
+              checked
+            />
+            <label class="label" for="symbol">Symbols</label>
+          </div>
+          <div class="config-item">
+            <input
+              type="checkbox"
+              class="checkbox"
+              id="number"
+              value="number"
+              name="include"
+              checked
+            />
+            <label class="label" for="number">Numbers</label>
+          </div>
+          <div>
+            <label class="config-title" for="length">Password length : </label>
+            <input type="number" id="length" max="15" min="8" value="8" />
+          </div>
+          <button type="submit" id="password-btn">Generate Passwords</button>
+        </form>
+        <hr />
+      </div>
+      <div class="sections output" id="output-container">
+        <p class="password-output" id="pwd-1">-</p>
+        <p class="password-output" id="pwd-2">-</p>
+      </div>
+    </main>
+  </body>
+</html>
