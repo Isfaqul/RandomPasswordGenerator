@@ -135,6 +135,15 @@ form {
   cursor: pointer;
   text-align: center;
   flex: 1;
+  transition: 0.1s ease;
+}
+
+.password-output:hover {
+  background-color: #2e3a4b;
+}
+
+.password-output:active {
+  background-color: #1a212b;
 }
 
 .checkbox {
