@@ -141,3 +141,32 @@ form {
   width: 15px;
   height: 15px;
 }
+
+@media screen and (max-width: 450px) {
+  #main-container {
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+
+  #tagline {
+    font-size: 1.5rem;
+  }
+  .config-title {
+    display: block;
+  }
+  .config-title {
+    margin-top: 2rem;
+  }
+  #password-btn {
+    width: 100%;
+  }
+  .output {
+    display: block;
+  }
+  .password-output {
+    margin: 1.5rem 0;
+  }
+}
